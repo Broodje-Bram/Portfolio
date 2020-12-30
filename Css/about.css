@@ -225,7 +225,7 @@ footer{
     height: 100%;
     position: absolute;
     top: 0;
-    background-color: #242f3f;
+    background-color: #121212;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -237,7 +237,7 @@ footer{
     width: 30px;
     height: 30px;
     position: relative;
-    border: 4px solid #Fff;
+    border: 4px solid #19B3D3;
     animation: loader 2s infinite ease;
 }
 
@@ -245,7 +245,7 @@ footer{
     vertical-align: top;
     display: inline-block;
     width: 100%;
-    background-color: #fff;
+    background-color: #c32865;
     animation: loader-inner 2s infinite ease-in;
 }
 
