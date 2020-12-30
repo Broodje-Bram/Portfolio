@@ -441,7 +441,7 @@ footer{
     .app-text h1{
         position: relative;
         margin-left: -300px;
-        font-size: 30px;
+        font-size: 15px;
      }
     .app-text p{
         font-size: 10px;
@@ -450,9 +450,9 @@ footer{
         display:inline-block;
     }
     .smoll{
-        font-size: 20px;
+        font-size: 10px;
     }
     .footer, .copy-right{
-        font-size: 10px;
+        font-size: 5px;
     }
 }
