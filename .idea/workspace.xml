@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Error in feature gemaakt">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Loading Screen kleur veranderd">
       <change beforePath="$PROJECT_DIR$/Css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
       <workItem from="1609252603980" duration="18273000" />
       <workItem from="1609326956565" duration="755000" />
       <workItem from="1609341055723" duration="1206000" />
-      <workItem from="1609354606799" duration="4411000" />
+      <workItem from="1609354606799" duration="4525000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1609179613675</created>
@@ -100,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609358838344</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Loading Screen kleur veranderd">
+      <created>1609359031414</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609359031414</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +129,7 @@
     <MESSAGE value="Dingen gefixed ik niet snappen hoe maar het is gefixed" />
     <MESSAGE value="meer links text" />
     <MESSAGE value="Error in feature gemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error in feature gemaakt" />
+    <MESSAGE value="Loading Screen kleur veranderd" />
+    <option name="LAST_COMMIT_MESSAGE" value="Loading Screen kleur veranderd" />
   </component>
 </project>
