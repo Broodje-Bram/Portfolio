@@ -432,6 +432,10 @@ footer{
         display: block;
     }
 
+    .social-icons{
+        display: none;
+    }
+
     .app-text h1{
         position: relative;
         margin-left: -300px;

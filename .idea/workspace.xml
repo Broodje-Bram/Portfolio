@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Dingen gefixed ik niet snappen hoe maar het is gefixed">
+    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="meer links text">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +56,7 @@
       <workItem from="1609252603980" duration="18273000" />
       <workItem from="1609326956565" duration="755000" />
       <workItem from="1609341055723" duration="1206000" />
-      <workItem from="1609354606799" duration="3092000" />
+      <workItem from="1609354606799" duration="4065000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1609179613675</created>
@@ -77,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609357495838</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="meer links text">
+      <created>1609357718067</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1609357718067</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +108,7 @@
     <MESSAGE value="Portfolio" />
     <MESSAGE value="Portfolio About af, Home Page nog Responsive maken" />
     <MESSAGE value="Dingen gefixed ik niet snappen hoe maar het is gefixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dingen gefixed ik niet snappen hoe maar het is gefixed" />
+    <MESSAGE value="meer links text" />
+    <option name="LAST_COMMIT_MESSAGE" value="meer links text" />
   </component>
 </project>
