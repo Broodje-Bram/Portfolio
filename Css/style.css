@@ -15,7 +15,7 @@ html, body{
     overflow-y:hidden;
 }
 
-.sidebar{
+.sidebar {
     z-index: 1;
     top: 0;
     background: #2f323a;
