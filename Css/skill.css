@@ -54,12 +54,9 @@ html, body{
     font-weight: 700;
     line-height: 1.3;
     transition: 0.5s;
-
 }
 
-.rubber:hover{
-    color: #c32865;
-    text-shadow: 0 0 15px #c32865;
+.app-text h1.rubber{
     animation: rubberBand 1s;
 }
 
@@ -452,6 +449,7 @@ footer{
 
     .active {
         display: block;
+        animation: opacity 1s ease-out;
     }
 
     .social-icons {

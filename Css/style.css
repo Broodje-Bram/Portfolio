@@ -401,6 +401,7 @@ footer{
 
     .active{
         display: block;
+        animation: opacity 1s ease-out;
     }
 
     .social-icons{

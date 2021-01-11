@@ -102,6 +102,15 @@
             $('.mobile_nav_items').toggleClass('active');
         });
     });
+
+    $(".app-text h1").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+        $(this).removeClass("rubber")
+    })
+
+    $(".app-text h1").hover(function(){
+        $(this).addClass("rubber");
+    });
+
 </script>
 </body>
 </html>

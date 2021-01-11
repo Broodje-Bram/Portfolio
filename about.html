@@ -48,7 +48,8 @@
             <span class="tags top-tags" style="margin-top: -100px; margin-left: -30px" >&nbsp;&nbsp;&nbsp;&lt;body&gt;<br><br></span>
             <span class="tags top-tags">&nbsp;&nbsp;&nbsp;&lt;h1&gt;</span><br>
 
-            <h1 class="rubber">About me</h1>
+            <h1 class="rubber">About</h1>
+            <h1 class="rubber" style="margin-left: 30px">me</h1>
             <br><span class="texthehe">&nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span>
 
             <p><span>Hello my name is Bram, I'm 16 Years old.
@@ -81,6 +82,14 @@
         $('.nav_btn').click(function(){
             $('.mobile_nav_items').toggleClass('active');
         });
+    });
+
+    $(".app-text h1").bind("webkitAnimationEnd mozAnimationEnd animationEnd", function(){
+        $(this).removeClass("rubber")
+    })
+
+    $(".app-text h1").hover(function(){
+        $(this).addClass("rubber");
     });
 </script>
 </body>
