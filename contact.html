@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Portfolio Bram</title>
-    <link rel="stylesheet" href="Css/about.css">
     <link rel="stylesheet" type="text/css" href="Css/loader.css">
+    <link rel="stylesheet" type="text/css" href="Css/contact.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
         <a class="services" href="#"><i class="fas fa-cogs servicesicon"></i><span class="servicestext">Projects</span></a>
         <a class="skill" href="skill.html"><i class="fas fa-atom skillicon"></i><span class="skilltext">Skills</span></a>
         <a class="team" href="#"><i class="fas fa-users teamicon"></i><span class="teamtext">Team</span></a>
-        <a class="contact" href="contact.html"><i class="fas fa-envelope contacticon"></i><span class="contacttext">Contact</span></a>
+        <a class="contact" href="#"><i class="fas fa-envelope contacticon"></i><span class="contacttext">Contact</span></a>
     </div>
 </div>
 <!--mobile navigation bar end-->
@@ -34,44 +34,69 @@
     <a class="services" href="#"><i class="fas fa-cogs servicesicon"></i><span class="servicestext">Projects</span></a>
     <a class="skill" href="skill.html"><i class="fas fa-atom skillicon"></i><span class="skilltext">Skills</span></a>
     <a class="team" href="#"><i class="fas fa-users teamicon"></i><span class="teamtext">Team</span></a>
-    <a class="contact" href="contact.html"><i class="fas fa-envelope contacticon"></i><span class="contacttext">Contact</span></a>
+    <a class="contact" href="#"><i class="fas fa-envelope contacticon"></i><span class="contacttext">Contact</span></a>
 
     <a class="social-icons" href="https://www.instagram.com/abgdsd_/" style="margin-top: 200px;"><i class="fab fa-instagram"></i></a></li>
     <a class="social-icons" href="https://github.com/Broodje-Bram"><i class="fab fa-github"></i></a></li>
 </div>
 <!--sidebar end-->
+
 <section>
-<div class="header">
-    <img src="img/BramgoudsmidFoto.jpeg">
-    <div class="banner">
-        <div class="app-text">
-            <span class="tags top-tags" style="margin-top: -100px; margin-left: -30px" >&nbsp;&nbsp;&nbsp;&lt;body&gt;<br><br></span>
-            <span class="tags top-tags">&nbsp;&nbsp;&nbsp;&lt;h1&gt;</span><br>
+    <div class="header">
+        <div class="banner">
+            <div class="app-text">
 
-            <h1 class="rubber">About</h1>
-            <h1 class="rubber" style="margin-left: 30px">me</h1>
-            <br><span class="texthehe">&nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span>
+                <span class="tags top-tags" style="margin-top: -100px; margin-left: -30px" >&nbsp;&nbsp;&nbsp;&lt;body&gt;<br><br></span>
+                <span class="tags top-tags">&nbsp;&nbsp;&nbsp;&lt;h1&gt;</span><br>
 
-            <p><span>Hello my name is Bram, I'm 16 Years old.
-                <br>I started learning programming at a young age. <br>I always liked to learn more about Computers </span></p>
+                <h1 class="rubber">C</h1>
+                <h1 class="rubber">o</h1>
+                <h1 class="rubber">n</h1>
+                <h1 class="rubber">t</h1>
+                <h1 class="rubber">a</h1>
+                <h1 class="rubber">c</h1>
+                <h1 class="rubber">t</h1>
+                <h1 style="margin-left: 30px" class="rubber">m</h1>
+                <h1 class="rubber">e</h1>
+                <br><span class="texthehe">&nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span>
 
-            <span class="tags" style="margin-bottom: -200px">&nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
+                <p><span>I'm interested in what you thought about my portfolio</span></p>
+
+
+                <!--contact section start-->
+                <div class="contact-section">
+                    <div class="contact-form">
+                        <form class="contact" action="" method="post">
+                            <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                            <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                            <input type="submit" name="submit" class="send-btn" value="Send">
+                        </form>
+                    </div>
+                </div>
+                <span><i class="fas fa-envelope"></i> 2134739@talnet.nl</span>
+                <!--contact section end-->
+
+                <span class="tags" style="margin-bottom: -50px">&nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
+            </sp>
         </div>
     </div>
-</div>
 </section>
-<footer>
-    <span class="copy-right"><a class="footer" href="#">BroodjeBram</a> | 2020 All rights reserved</span>
-</footer>
+
+
+
+
+
+
 
 <div class="loader-wrapper">
     <span class="loader"><span class="loader-inner"></span></span>
-    <span class="loadertext">Broodje Bram is loading</span>
+    <span class="loadertext">Broodje Bram</span>
 </div>
 
-
-
-
+<footer>
+    <span class="copy-right"><a class="footer" href="#">BroodjeBram</a> | 2020 All rights reserved</span>
+</footer>
 
 <script type="text/javascript">
     $(window).on("load",function(){
@@ -92,5 +117,6 @@
         $(this).addClass("rubber");
     });
 </script>
+
 </body>
 </html>

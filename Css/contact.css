@@ -370,6 +370,76 @@ footer{
 }
 
 
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-form .text-box{
+    background: #121212;
+    color: #fff;
+    border: none;
+    width: 40%;
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 40px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .text-box:first-child{
+    margin-right: 10px;
+}
+
+.contact-form textarea{
+    background: #121212;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 100px;
+    max-height: 200px;
+    resize: none;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .send-btn{
+    float: right;
+    color: black;
+    background: #212121;
+    border: 1px solid #c32865;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: background;
+}
+
+.contact-form .send-btn:hover{
+    background: #c32865;
+}
+
+
+
 
 
 /* Responsive CSS */
@@ -463,12 +533,4 @@ footer{
     .tags, .top-tags, .texthehe {
         display: none;
     }
-
-    .animationright{
-        margin-top: 300px;
-        margin-left: 100px;
-    }
 }
-
-
-
