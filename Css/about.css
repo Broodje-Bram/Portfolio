@@ -1,16 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    user-select: none;
 }
 
 html, body{
 
-    background: url("../img/htmlbackground.jpg") no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
+    background: #212121;
     overflow-x:hidden;
     overflow-y:hidden;
 }
@@ -114,6 +114,7 @@ html, body{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
+    animation: opacity 0.5s ease-out;
 }
 
 .about:hover .usericon{
@@ -124,6 +125,7 @@ html, body{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
+    animation: opacity 0.5s ease-out;
 }
 
 .services:hover .servicesicon{
@@ -134,6 +136,7 @@ html, body{
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
     margin-left: -20px;
+    animation: opacity 0.5s ease-out;
 }
 
 .skill:hover .skillicon{
@@ -143,6 +146,7 @@ html, body{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
+    animation: opacity 0.5s ease-out;
 }
 
 .team:hover .teamicon{
@@ -152,6 +156,7 @@ html, body{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
+    animation: opacity 0.5s ease-out;
 }
 
 .contact:hover .contacticon{
@@ -162,6 +167,7 @@ html, body{
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
     margin-left: -20px;
+    animation: opacity 0.5s ease-out;
 }
 
 .social-icons{
@@ -217,6 +223,24 @@ footer{
     }
 }
 
+@keyframes opacity  {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 40%;
+    }
+    80% {
+        opacity: 80%;
+    }
+    90% {
+        opacity: 90%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
 img{
     height: 400px;
     width: 400px;
@@ -225,6 +249,26 @@ img{
     margin-left: 70%;
     object-fit: cover;
     border-radius: 6px;
+}
+
+.tags {
+    color: #515152;
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+
+}
+.top-tags {
+    bottom: auto;
+    top: 0px;
+}
+.texthehe {
+    color: #515152;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+
 }
 
 /* Responsive CSS */
@@ -325,4 +369,8 @@ img{
     .footer, .copy-right{
         font-size: 10px;
     }
+    .tags, .top-tags, .texthehe {
+        display: none;
+    }
 }
+

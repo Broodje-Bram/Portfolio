@@ -71,6 +71,7 @@ html, body{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
+    animation: opacity 0.5s ease-out;
 }
 
 .about:hover .usericon{
@@ -81,6 +82,7 @@ html, body{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
+    animation: opacity 0.5s ease-out;
 }
 
 .services:hover .servicesicon{
@@ -91,6 +93,7 @@ html, body{
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
     margin-left: -20px;
+    animation: opacity 0.5s ease-out;
 }
 
 .skill:hover .skillicon{
@@ -100,6 +103,7 @@ html, body{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
+    animation: opacity 0.5s ease-out;
 }
 
 .team:hover .teamicon{
@@ -109,6 +113,7 @@ html, body{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
+    animation: opacity 0.5s ease-out;
 }
 
 .contact:hover .contacticon{
@@ -119,6 +124,7 @@ html, body{
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
     margin-left: -20px;
+    animation: opacity 0.5s ease-out;
 }
 
 .social-icons{
@@ -302,6 +308,25 @@ footer{
         transform: translateX(0px);
     }
 }
+
+@keyframes opacity  {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 40%;
+    }
+    80% {
+        opacity: 80%;
+    }
+    90% {
+        opacity: 90%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
 /* Responsive CSS */
 @media screen and (max-width: 780px){
     html,body{
