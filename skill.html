@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio Bram</title>
+    <link rel="stylesheet" href="Css/skill.css">
     <link rel="stylesheet" type="text/css" href="Css/loader.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
 </head>
 <body>
+
 <!--mobile navigation bar start-->
 <div class="mobile_nav">
     <div class="nav_bar">
@@ -39,5 +40,67 @@
 </div>
 <!--sidebar end-->
 
+<section>
+    <div class="header">
+        <div class="banner">
+            <div class="app-text">
+                <span class="tags top-tags" style="margin-top: -100px; margin-left: -30px" >&nbsp;&nbsp;&nbsp;&lt;body&gt;<br><br></span>
+                <span class="tags top-tags">&nbsp;&nbsp;&nbsp;&lt;h1&gt;</span><br>
+
+                <h1 class="rubber">Skills</h1>
+                <h1 style="margin-left: 10px" class="rubber"> and</h1>
+                <h1 style="margin-left: 10px" class="rubber"> experience</h1>
+                <br><span class="texthehe">&nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span>
+
+                <p><span>I got experience with mysql, php, java and a little bit of C++,
+                    <br> i dont have enough experience to say that i'm the best at it
+                    <br> but i can still use it to make some beautiful projects with it</span></p>
+
+                <span class="tags" style="margin-bottom: -300px">&nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section>
+    <div class="animationright">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</section>
+
+<div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+    <span class="loadertext">Broodje Bram is loading</span>
+</div>
+
+<footer>
+    <span class="copy-right"><a class="footer" href="#">BroodjeBram</a> | 2020 All rights reserved</span>
+</footer>
+
+<script type="text/javascript">
+    $(window).on("load",function(){
+        $(".loader-wrapper").fadeOut("slow");
+    });
+
+    $(document).ready(function(){
+        $('.nav_btn').click(function(){
+            $('.mobile_nav_items').toggleClass('active');
+        });
+    });
+</script>
 </body>
 </html>
