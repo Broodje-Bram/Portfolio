@@ -3,15 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Portfolio Bram</title>
-    <link rel="stylesheet" href="Css/about.css">
-    <link rel="stylesheet" type="text/css" href="Css/loader.css">
+    <link rel="stylesheet" href="Css/loader.css">
+    <link rel="stylesheet" href="Css/team.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
 </head>
 <body>
-
 <!--mobile navigation bar start-->
 <div class="mobile_nav">
     <div class="nav_bar">
@@ -40,38 +39,59 @@
     <a class="social-icons" href="https://github.com/Broodje-Bram"><i class="fab fa-github"></i></a></li>
 </div>
 <!--sidebar end-->
+
 <section>
-<div class="header">
-    <img src="img/BramgoudsmidFoto.jpeg">
-    <div class="banner">
-        <div class="app-text">
-            <span class="tags top-tags" style="margin-top: -100px; margin-left: -30px" >&nbsp;&nbsp;&nbsp;&lt;body&gt;<br><br></span>
-            <span class="tags top-tags">&nbsp;&nbsp;&nbsp;&lt;h1&gt;</span><br>
+    <div class="header">
+        <div class="banner">
+            <div class="app-text">
+                <span class="tags top-tags" style="margin-top: -100px; margin-left: -30px" >&nbsp;&nbsp;&nbsp;&lt;body&gt;<br><br></span>
+                <span class="tags top-tags">&nbsp;&nbsp;&nbsp;&lt;h1&gt;</span><br>
 
-            <h1 class="rubber">About</h1>
-            <h1 class="rubber" style="margin-left: 30px">me</h1>
-            <br><span class="texthehe">&nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span>
+                <h1>Mijn Team</h1>
+                <br><span class="texthehe">&nbsp;&nbsp;&nbsp;&lt;/h1&gt;</span>
+                <span class="tags" style="margin-bottom: -300px">&nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
+            </div>
+        </div>
+    </div>
+</section>
 
-            <p><span>Hello my name is Bram, I'm 16 Years old.
-                <br>I started learning programming at a young age. <br>I always liked to learn more about Computers </span></p>
-
-            <span class="tags" style="margin-bottom: -200px">&nbsp;&nbsp;&nbsp;&lt;/body&gt;</span>
+<div class="wrapper">
+    <div class="team">
+        <div class="team_member">
+            <div class="team_img">
+                <img src="img/bramgoudsmid.png">
+            </div>
+            <h3>Bram Goudsmid</h3>
+            <p class="role"><br><br>Software Developer, WebDesigner</p>
+        </div>
+        <div class="team_member">
+            <div class="team_img">
+                <img src="img/lotfi.png">
+            </div>
+            <h3>Lotfi</h3>
+            <p class="role"><br><br>Software Developer</p>
+        </div>
+        <div class="team_member">
+            <div class="team_img">
+                <img src="img/josh.jpg">
+            </div>
+            <h3>Josh Kumar</h3>
+            <p class="role"><br><br>Software Developer</p>
         </div>
     </div>
 </div>
-</section>
-<footer>
-    <span class="copy-right"><a class="footer" href="#">BroodjeBram</a> | 2020 All rights reserved</span>
-</footer>
+
+
+
 
 <div class="loader-wrapper">
     <span class="loader"><span class="loader-inner"></span></span>
     <span class="loadertext">Broodje Bram is loading</span>
 </div>
 
-
-
-
+<footer>
+    <span class="copy-right"><a class="footer" href="#">BroodjeBram</a> | 2020 All rights reserved</span>
+</footer>
 
 <script type="text/javascript">
     $(window).on("load",function(){
@@ -91,6 +111,7 @@
     $(".app-text h1").hover(function(){
         $(this).addClass("rubber");
     });
+
 </script>
 </body>
 </html>

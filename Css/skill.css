@@ -31,7 +31,6 @@ html, body{
     color: #515152;
     font-size: 18px;
     font-family: 'La Belle Aurore', cursive;
-
 }
 
 .banner{
@@ -235,6 +234,10 @@ footer{
     }
 }
 
+.bigger{
+    height: 500px;
+}
+
 .animationright{
     position: relative;
     margin-top: 150px;
@@ -368,9 +371,6 @@ footer{
         transform: translateZ(100px);
     }
 }
-
-
-
 
 /* Responsive CSS */
 @media screen and (max-width: 800px) {

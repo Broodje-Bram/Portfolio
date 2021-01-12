@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap');
-
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +11,47 @@ html, body{
     background: #212121;
     overflow-x:hidden;
     overflow-y:hidden;
+}
+
+.tags {
+    color: #515152;
+    position: absolute;
+    bottom: 0px;
+    left: 80px;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+
+}
+.top-tags {
+    bottom: auto;
+    top: 0;
+}
+.texthehe {
+    color: #515152;
+    font-size: 18px;
+    font-family: 'La Belle Aurore', cursive;
+}
+
+.banner{
+    position: absolute;
+    top: 20%;
+    left: 0;
+    color: #fff;
+}
+
+.app-text{
+    padding-left: 100px
+}
+
+.app-text h1{
+    font-size: 60px;
+    position: relative;
+    display:inline-block;
+    color: #c32865;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 1.3;
+    transition: 0.5s;
 }
 
 .sidebar{
@@ -46,49 +86,6 @@ html, body{
 
 .mobile_nav{
     display: none;
-}
-
-.content .card p{
-    background: #fff;
-    padding: 15px;
-    margin-bottom: 10px;
-    font-size: 14px;
-    opacity: 0.8;
-}
-
-.banner{
-    position: absolute;
-    top: 20%;
-    left: 0;
-    color: #fff;
-}
-
-.app-text{
-    padding-left: 100px
-}
-
-.app-text h1{
-    font-size: 60px;
-    position: relative;
-    display:inline-block;
-    color: #c32865;
-    margin-top: 10px;
-    font-weight: 700;
-    line-height: 1.3;
-    transition: 0.5s;
-}
-.app-text h1.rubber{
-    animation: rubberBand 1s;
-}
-
-
-.app-text p{
-    font-size: 20px;
-    margin: 30px 30px 30px 0;
-    color: #fff;
-    padding-right: 250px;
-    line-height: 1.5;
-    letter-spacing: 3px;
 }
 
 .Hometext,.abouttext, .servicestext, .skilltext, .teamtext, .contacttext{
@@ -189,29 +186,6 @@ footer{
     text-decoration: underline;
 }
 
-@keyframes rubberBand {
-    from {
-        transform: scale3d(1, 1, 1);
-    }
-    30% {
-        transform: scale3d(1.25, 0.75, 1);
-    }
-    40% {
-        transform: scale3d(0.75, 1.25, 1);
-    }
-    50% {
-        transform: scale3d(1.15, 0.85, 1);
-    }
-    65% {
-        transform: scale3d(.95, 1.05, 1);
-    }
-    75% {
-        transform: scale3d(1.05, .95, 1);
-    }
-    to {
-        transform: scale3d(1, 1, 1);
-    }
-}
 
 @keyframes opacity  {
     0% {
@@ -231,55 +205,33 @@ footer{
     }
 }
 
-img{
-    height: 400px;
-    width: 400px;
-    margin-top: 150px;
-    margin-right: 30px;
-    margin-left: 70%;
-    object-fit: cover;
-    border-radius: 6px;
-}
-
-.tags {
-    color: #515152;
-    position: absolute;
-    bottom: 0px;
-    left: 80px;
-    font-size: 18px;
-    font-family: 'La Belle Aurore', cursive;
-
-}
-.top-tags {
-    bottom: auto;
-    top: 0px;
-}
-.texthehe {
-    color: #515152;
-    font-size: 18px;
-    font-family: 'La Belle Aurore', cursive;
-
-}
-
 /* Responsive CSS */
-@media screen and (max-width: 800px){
-    .sidebar{
+@media screen and (max-width: 800px) {
+    .app-text h1 {
+        font-size: 40px;
+    }
+
+    .app-text p {
+        font-size: 10px;
+    }
+
+    .sidebar {
         display: none;
     }
 
-    .content{
+    .content {
         margin-left: 0;
         margin-top: 0;
         padding: 10px 20px;
         transition: 0s;
     }
 
-    .mobile_nav{
+    .mobile_nav {
         display: block;
         width: calc(100% - 0%);
     }
 
-    .nav_bar{
+    .nav_bar {
         background: #222;
         width: calc(100% - 0px);
         display: flex;
@@ -288,7 +240,7 @@ img{
         padding: 10px 20px;
     }
 
-    .nav_bar .nav_btn{
+    .nav_bar .nav_btn {
         color: #fff;
         font-size: 22px;
         cursor: pointer;
@@ -296,18 +248,18 @@ img{
         transition-property: color;
     }
 
-    .nav_bar .nav_btn:hover{
+    .nav_bar .nav_btn:hover {
         color: #c32865;
         text-shadow: 0 0 15px #c32865;
     }
 
-    .mobile_nav_items{
+    .mobile_nav_items {
         height: 50px;
         background: #2F323A;
         display: none;
     }
 
-    .mobile_nav_items a{
+    .mobile_nav_items a {
         color: black;
         padding-top: 0;
         font-size: 20px;
@@ -319,49 +271,99 @@ img{
         transition-property: background;
     }
 
-    .mobile_nav_items a:hover{
+    .mobile_nav_items a:hover {
         color: #c32865;
         text-shadow: 0 0 15px #c32865;
     }
 
-    .mobile_nav_items i{
+    .mobile_nav_items i {
         padding-right: 10px;
     }
 
-    .active{
+    .active {
         display: block;
         animation: opacity 1s ease-out;
     }
-    .social-icons{
+
+    .social-icons {
         display: none;
     }
-    img{
-        height: 310px;
-        width: 310px;
-        margin-left: 60px;
-        margin-top: 20px;
-        position: relative;
-    }
-    .app-text h1{
-        margin-top: 300px;
-        position: relative;
-        font-size: 20px;
-        margin-left: 50px;
-    }
-    .app-text p{
-        position: relative;
-        font-size: 10px;
-        letter-spacing: 1px;
-        width: 100%;
-        color: white;
-        margin-left: 50px;
-        display:inline-block;
-    }
-    .footer, .copy-right{
+
+    .footer, .copy-right {
         font-size: 10px;
     }
+
     .tags, .top-tags, .texthehe {
         display: none;
     }
+
+    .animationright{
+        margin-top: 300px;
+        margin-left: 100px;
+    }
 }
 
+.wrapper{
+    margin-top: 300px;
+}
+
+.wrapper h1{
+    font-family: 'monospace', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member{
+    background: #121212;
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.team .team_member h3{
+    color: #c32865;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: #c32865;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #212121;
+}
+
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.team_member:hover{
+    border: 1px solid #c32865;
+    box-shadow: 0 0 5px #c32865;
+}
