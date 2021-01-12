@@ -328,7 +328,7 @@ footer{
 }
 
 /* Responsive CSS */
-@media screen and (max-width: 780px){
+@media screen and (max-width: 800px){
     html,body{
         background-image: url("../img/173854.jpg");
         width: 100%;

@@ -373,7 +373,7 @@ footer{
 
 
 /* Responsive CSS */
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
     .app-text h1 {
         font-size: 40px;
     }
