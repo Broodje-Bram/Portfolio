@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="beter gemaakt">
-      <change afterPath="$PROJECT_DIR$/Css/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Css/team.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/bramgoudsmid.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/josh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/lotfi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
+    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Team beetje gemaakt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/about.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/skill.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/skill.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascript/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Javascript/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/2170.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/271048.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/459202.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/806443.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/htmlbackground.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/monkeflip.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/skill.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/team.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +80,11 @@
       <workItem from="1610387818966" duration="9633000" />
       <workItem from="1610453099529" duration="2497000" />
       <workItem from="1610463646691" duration="1598000" />
-      <workItem from="1610478105026" duration="4715000" />
+      <workItem from="1610478105026" duration="4749000" />
+      <workItem from="1610559719011" duration="20000" />
+      <workItem from="1610559810669" duration="413000" />
+      <workItem from="1610560619523" duration="314000" />
+      <workItem from="1610563253530" duration="1993000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1609179613675</created>
@@ -228,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610455360842</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Team beetje gemaakt">
+      <created>1610482848223</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1610482848223</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +252,7 @@
     <MESSAGE value="Animation beter gemaakt" />
     <MESSAGE value="Contact me page 50 50" />
     <MESSAGE value="beter gemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="beter gemaakt" />
+    <MESSAGE value="Team beetje gemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Team beetje gemaakt" />
   </component>
 </project>

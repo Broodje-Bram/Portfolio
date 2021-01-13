@@ -43,16 +43,79 @@ html, body{
     padding-left: 100px
 }
 
-.app-text h1{
-    font-size: 60px;
-    position: relative;
-    display:inline-block;
-    color: #c32865;
-    margin-top: 10px;
-    font-weight: 700;
-    line-height: 1.3;
-    transition: 0.5s;
+#logo path:nth-child(2){
+    stroke-dasharray: 463;
+    stroke-dashoffset: 463;
+    animation: line-animation 2s ease forwards;
 }
+
+.wrapper{
+    margin-top: 300px;
+}
+
+.wrapper h1{
+    font-family: 'monospace', cursive;
+    font-size: 52px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.team{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.team .team_member{
+    background: #121212;
+    margin: 5px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #8e8b8b;
+    position: relative;
+}
+
+.team .team_member h3{
+    color: #c32865;
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+.team .team_member p.role{
+    color: #c32865;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #212121;
+}
+
+.team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.team_member:hover{
+    border: 1px solid #c32865;
+    box-shadow: 0 0 5px #c32865;
+}
+
+
+
 
 .sidebar{
     z-index: 1;
@@ -137,10 +200,10 @@ html, body{
     animation: opacity 0.5s ease-out;
 }
 
-.team:hover .teamicon{
+.teams:hover .teamicon{
     display: none;
 }
-.team:hover .teamtext{
+.teams:hover .teamtext{
     display: inline;
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
@@ -202,6 +265,12 @@ footer{
     }
     100% {
         opacity: 100%;
+    }
+}
+
+@keyframes line-animation {
+    to {
+       stroke-dashoffset: 0;
     }
 }
 
@@ -301,69 +370,24 @@ footer{
         margin-top: 300px;
         margin-left: 100px;
     }
+    .team .team_member{
+        width: 150px;
+    }
+    .wrapper h1{
+        font-family: 'monospace', cursive;
+        font-size: 52px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+    .team .team_member h3{
+        color: #c32865;
+        font-size: 15px;
+        margin-top: 50px;
+    }
+
+    .team .team_member p.role{
+        font-size: 10px;
+    }
+
 }
 
-.wrapper{
-    margin-top: 300px;
-}
-
-.wrapper h1{
-    font-family: 'monospace', cursive;
-    font-size: 52px;
-    margin-bottom: 60px;
-    text-align: center;
-}
-
-.team{
-    display: flex;
-    justify-content: center;
-    width: auto;
-    text-align: center;
-    flex-wrap: wrap;
-}
-
-.team .team_member{
-    background: #121212;
-    margin: 5px;
-    width: 300px;
-    padding: 20px;
-    line-height: 20px;
-    color: #8e8b8b;
-    position: relative;
-}
-
-.team .team_member h3{
-    color: #c32865;
-    font-size: 26px;
-    margin-top: 50px;
-}
-
-.team .team_member p.role{
-    color: #c32865;
-    margin: 12px 0;
-    font-size: 12px;
-    text-transform: uppercase;
-}
-
-.team .team_member .team_img{
-    position: absolute;
-    top: -50px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: #212121;
-}
-
-.team .team_member .team_img img{
-    width: 100px;
-    height: 100px;
-    padding: 5px;
-    border-radius: 50%;
-}
-
-.team_member:hover{
-    border: 1px solid #c32865;
-    box-shadow: 0 0 5px #c32865;
-}
