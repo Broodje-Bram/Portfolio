@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Team beetje gemaakt">
+    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Team af gemaakt soort van">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Css/team.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/team.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +83,9 @@
       <workItem from="1610559719011" duration="20000" />
       <workItem from="1610559810669" duration="413000" />
       <workItem from="1610560619523" duration="314000" />
-      <workItem from="1610563253530" duration="1993000" />
+      <workItem from="1610563253530" duration="2069000" />
+      <workItem from="1611063447442" duration="9000" />
+      <workItem from="1611787368829" duration="34000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1609179613675</created>
@@ -219,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610482848223</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Team af gemaakt soort van">
+      <created>1610565309108</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1610565309108</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +261,7 @@
     <MESSAGE value="Contact me page 50 50" />
     <MESSAGE value="beter gemaakt" />
     <MESSAGE value="Team beetje gemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Team beetje gemaakt" />
+    <MESSAGE value="Team af gemaakt soort van" />
+    <option name="LAST_COMMIT_MESSAGE" value="Team af gemaakt soort van" />
   </component>
 </project>
