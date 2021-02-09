@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/skill.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/team.html" beforeDir="false" afterPath="$PROJECT_DIR$/team.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,7 @@
       <workItem from="1611787368829" duration="196000" />
       <workItem from="1612377004036" duration="18000" />
       <workItem from="1612377060726" duration="19000" />
-      <workItem from="1612886301428" duration="1197000" />
+      <workItem from="1612886301428" duration="1353000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1609179613675</created>
@@ -260,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612887445209</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="EH??">
+      <created>1612887518874</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1612887518874</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
