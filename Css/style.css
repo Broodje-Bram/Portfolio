@@ -22,28 +22,33 @@ html, body{
     background: #2f323a;
     position: fixed;
     left: 0;
-    width: 70px;
+    width: 6.5%;
     height: 100%;
     transition: 0.5s;
     transition-property: left;
     overflow-y: auto;
 }
 
+ul {
+    height: 100%;
+}
+
 .sidebar a{
-    color: black;
-    display: block;
     width: 100%;
+    height: 50px;
+    display: flex;
     line-height: 60px;
     text-decoration: none;
-    padding-left: 35%;
+    font-size: 20px;
     box-sizing: border-box;
     transition: 0.5s;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .sidebar i{
-    padding-right: 10px;
-    margin-top: 20px;
     color: #c32865;
 }
 
@@ -60,8 +65,8 @@ html, body{
 }
 
 .Hometext,.abouttext, .servicestext, .skilltext, .teamtext, .contacttext{
-    margin-left: -15px;
     display: none;
+    font-size: 18px;
 }
 
 
@@ -129,11 +134,6 @@ html, body{
     animation: opacity 0.5s ease-out;
 }
 
-.social-icons{
-    font-size: 30px;
-    transition: 0.5s;
-    margin-right: -45px;
-}
 
 .social-icons:hover{
     color: #c32865;
@@ -144,10 +144,6 @@ html, body{
     position: relative;
     width: 100%;
     height: 92vh;
-}
-
-.smoll{
-    font-size: 50px;
 }
 
 .red {
@@ -186,26 +182,18 @@ html, body{
 
 .social-icons{
     position: absolute;
-    right: 50px;
-    bottom: 2%; 
-}
-
- 
-.social-icons ul li{
-    width: 50px;
-    height: 50px;
-    display: inline-block;
+    bottom: 0;
 }
 
 .social-icons ul li a{
     display: block;
-    color: #fff;
     text-align: center;
     padding: 12px 17px;
-    font-size: 20px;
     font-weight: 700;
     border-radius: 10px;
     cursor: pointer;
+    bottom: auto;
+    transform: translateY(100%);
     transition: all 0.5s;
 }
 
