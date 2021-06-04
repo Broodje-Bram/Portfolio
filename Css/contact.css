@@ -100,9 +100,14 @@ ul {
     display: none;
 }
 
-.Hometext,.abouttext, .servicestext, .skilltext, .teamtext, .contacttext{
-    margin-left: -15px;
+.Hometext,.abouttext, .servicestext, .skilltext, .contacttext{
+    font-size: 16px;
     display: none;
+}
+
+.servicestext, .contacttext{
+    font-size: 14px;
+    margin-right: -30%;
 }
 
 
@@ -149,15 +154,6 @@ ul {
     animation: opacity 0.5s ease-out;
 }
 
-.team:hover .teamicon{
-    display: none;
-}
-.team:hover .teamtext{
-    display: inline;
-    color: #c32865;
-    text-shadow: 0 0 15px #c32865;
-    animation: opacity 0.5s ease-out;
-}
 
 .contact:hover .contacticon{
     display: none;
