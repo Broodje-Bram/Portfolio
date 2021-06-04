@@ -44,6 +44,7 @@ html, body{
 .sidebar i{
     padding-right: 10px;
     margin-top: 20px;
+    color: #c32865;
 }
 
 .mobile_nav{
@@ -213,22 +214,6 @@ html, body{
     color: #fff;
 }
 
-footer{
-    background: #121212;
-    padding: 20px 23px;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.footer{
-    margin-left: 40%;
-    color: #c32865;
-    text-decoration: none;
-}
-.footer:hover {
-    text-decoration: underline;
-}
 .typing-2 {
     color: #c32865;
     font-weight: bold;
