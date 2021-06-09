@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Alles wat professioneler (of hoe je het ook schrijft) gemaakt">
-      <change afterPath="$PROJECT_DIR$/Css/project.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Start van de Project page">
+      <change afterPath="$PROJECT_DIR$/img/SMiley.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/angelchatlogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/project.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/skill.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,14 +50,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Bramg\PhpstormProjects\Portfolio\test" />
       <recent name="C:\Users\Bramg\PhpstormProjects\Portfolio\img" />
+      <recent name="C:\Users\Bramg\PhpstormProjects\Portfolio\test" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Bramg\PhpstormProjects\Portfolio\img" />
@@ -112,7 +114,7 @@
       <workItem from="1622810076550" duration="194000" />
       <workItem from="1622810341256" duration="6260000" />
       <workItem from="1622817694052" duration="6995000" />
-      <workItem from="1623250500862" duration="398000" />
+      <workItem from="1623250500862" duration="6963000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1609179613675</created>
@@ -331,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622827662651</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Start van de Project page">
+      <created>1623250958490</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1623250958490</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,6 +380,7 @@
     <MESSAGE value="Maybe nu" />
     <MESSAGE value="paar kleine Changes" />
     <MESSAGE value="Alles wat professioneler (of hoe je het ook schrijft) gemaakt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alles wat professioneler (of hoe je het ook schrijft) gemaakt" />
+    <MESSAGE value="Start van de Project page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start van de Project page" />
   </component>
 </project>
