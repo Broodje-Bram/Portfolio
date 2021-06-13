@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="project page bijna af alleen  nog text adden">
+    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Projecten pagina soort van af">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/project.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/project.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/skill.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/skill.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skill.html" beforeDir="false" afterPath="$PROJECT_DIR$/skill.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -108,7 +117,9 @@
       <workItem from="1622810341256" duration="6260000" />
       <workItem from="1622817694052" duration="6995000" />
       <workItem from="1623250500862" duration="8490000" />
-      <workItem from="1623339452070" duration="1380000" />
+      <workItem from="1623339452070" duration="1595000" />
+      <workItem from="1623613243192" duration="916000" />
+      <workItem from="1623617600734" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1609179613675</created>
@@ -348,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623259146933</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Projecten pagina soort van af">
+      <created>1623348488072</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1623348488072</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -390,6 +408,7 @@
     <MESSAGE value="Alles wat professioneler (of hoe je het ook schrijft) gemaakt" />
     <MESSAGE value="Start van de Project page" />
     <MESSAGE value="project page bijna af alleen  nog text adden" />
-    <option name="LAST_COMMIT_MESSAGE" value="project page bijna af alleen  nog text adden" />
+    <MESSAGE value="Projecten pagina soort van af" />
+    <option name="LAST_COMMIT_MESSAGE" value="Projecten pagina soort van af" />
   </component>
 </project>
