@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="Projecten pagina soort van af">
+    <list default="true" id="4f59c856-08e9-4d71-b98f-6bb65f117a82" name="Default Changelist" comment="portfolio af">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/about.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/Css/contact.css" afterDir="false" />
@@ -119,7 +119,8 @@
       <workItem from="1623250500862" duration="8490000" />
       <workItem from="1623339452070" duration="1595000" />
       <workItem from="1623613243192" duration="916000" />
-      <workItem from="1623617600734" duration="1821000" />
+      <workItem from="1623617600734" duration="1850000" />
+      <workItem from="1623681880048" duration="712000" />
     </task>
     <task id="LOCAL-00001" summary="Portfolio">
       <created>1609179613675</created>
@@ -366,7 +367,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623348488072</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="portfolio af">
+      <created>1623619455261</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1623619455261</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,6 +417,7 @@
     <MESSAGE value="Start van de Project page" />
     <MESSAGE value="project page bijna af alleen  nog text adden" />
     <MESSAGE value="Projecten pagina soort van af" />
-    <option name="LAST_COMMIT_MESSAGE" value="Projecten pagina soort van af" />
+    <MESSAGE value="portfolio af" />
+    <option name="LAST_COMMIT_MESSAGE" value="portfolio af" />
   </component>
 </project>

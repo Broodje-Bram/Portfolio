@@ -170,7 +170,7 @@ li span {
 }
 
 li {
-    color: #c32865;
+    color: #fff;
 }
 
 
@@ -179,26 +179,11 @@ li {
     text-shadow: 0 0 15px #c32865;
 }
 
-.social-icons{
+.social-icons {
     position: absolute;
     bottom: 0;
-}
-
-.social-icons ul li a{
-    display: block;
-    text-align: center;
-    padding: 12px 17px;
-    font-weight: 700;
-    border-radius: 10px;
     cursor: pointer;
-    bottom: auto;
-    transform: translateY(100%);
     transition: all 0.5s;
-}
-
-.social-icons ul li a:hover{
-    background: #c32865;
-    color: #fff;
 }
 
 

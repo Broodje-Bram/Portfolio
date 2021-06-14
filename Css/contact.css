@@ -166,34 +166,18 @@ ul {
     animation: opacity 0.5s ease-out;
 }
 
+
+.social-icons {
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
 .social-icons:hover{
     color: #c32865;
     text-shadow: 0 0 15px #c32865;
 }
-
-.social-icons{
-    position: absolute;
-    bottom: 0;
-}
-
-.social-icons ul li a{
-    display: block;
-    text-align: center;
-    padding: 12px 17px;
-    font-weight: 700;
-    border-radius: 10px;
-    cursor: pointer;
-    bottom: auto;
-    transform: translateY(100%);
-    transition: all 0.5s;
-}
-
-.social-icons ul li a:hover{
-    background: #c32865;
-    color: #fff;
-}
-
-
 
 @keyframes opacity  {
     0% {
