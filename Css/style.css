@@ -22,7 +22,7 @@ html, body{
     background: #121212;
     position: fixed;
     left: 0;
-    width: 6.5%;
+    width: 70px;
     height: 100%;
     transition: 0.5s;
     transition-property: left;
