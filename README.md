@@ -1,4 +1,4 @@
 # portfolio
 My online Portfolio
 
-Url: BGoudsmid.netlify.com
+Url: BGoudsmid.netlify.app
