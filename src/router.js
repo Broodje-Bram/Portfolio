@@ -61,7 +61,7 @@ const router = new Router({
             name: `.err(404)`,
             component: () => import(/* webpackChunkName: "404" */ './views/404.vue'),
             meta: {
-                title: `iuri.err(404)`,
+                title: `bram.err(404)`,
                 bodyClass: 'page-err404',
                 metaTags: [
                     {
