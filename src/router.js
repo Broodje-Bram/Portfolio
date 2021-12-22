@@ -72,10 +72,10 @@ const router = new Router({
             },
         },
     ],
-    // scrollBehavior (to, from, savedPosition) {
-    //     // reset scroll
-    //     return { x: 0, y: 0 }
-    // }
+    scrollBehavior () {
+        // reset scroll
+        return { x: 0, y: 0 }
+    }
 });
 
 // NProgress
