@@ -13,7 +13,7 @@
             For the past 2 years, I was <b class="-pink">a student at Roc Flevoland</b> @ <a href="https://www.rocvanflevoland.nl/" target="_blank" title="Visit Roc's website" class="-pink">Roc</a>.
           </p>
           <p>
-           A School that makes use of youre Talent.
+           A School that makes use of your Talent.
           </p>
         </div>
       </div>
