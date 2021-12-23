@@ -44,7 +44,7 @@
             <li class="-comment">
               Download my
               <a
-                  href="./Bram-Goudsmid-Resume.pdf"
+                  href="/Bram-Goudsmid-Resume.pdf"
                   target="_blank"
                   title="Download Resume"
                   class="bt"
