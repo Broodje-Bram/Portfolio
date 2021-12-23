@@ -38,7 +38,7 @@
 #about .about-contact li {
     flex:0 0 auto;
     margin:0 1rem 0 0;
-    color:var(--pink)
+    color:var(--grey)
 }
 #about .about-contact a {
     flex:0 0 auto;
