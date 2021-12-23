@@ -7,7 +7,7 @@
         <div class="first-fold">
           <ul class="about-contact">
             <li>
-              <a href="https://www.linkedin.com/in/bram-goudsmid-%F0%9F%92%BB-ab2401225//" target="_blank" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/bram-goudsmid-💻-ab2401225/" target="_blank" rel="noopener" title="LinkedIn">
                 <svg
                     class="ico"
                     viewBox="0 0 16 16"
@@ -23,7 +23,7 @@
               </a>
             </li>
             <li>
-              <a href="https://github.com/Broodje-Bram" target="_blank" title="GitHub">
+              <a href="https://github.com/Broodje-Bram" target="_blank" rel="noopener" title="GitHub">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     class="ico"
