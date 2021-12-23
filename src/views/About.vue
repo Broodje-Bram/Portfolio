@@ -66,7 +66,8 @@
                 Photoshop
               </li>
               <li>
-                Strategic thinking, WordPress
+                Strategic thinking,
+                <br>WordPress
               </li>
             </ul>
           </div>

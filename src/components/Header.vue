@@ -1,5 +1,12 @@
 <template>
   <header id="header">
+    <div class="header-bg">
+      <div class="-default"></div>
+      <div class="-navback"></div>
+      <div class="-navback2"></div>
+      <div class="-navback3"></div>
+      <div class="-navback4"></div>
+    </div>
     <div class="header-container">
       <div class="header-breadcrumb">{{routeName}}</div>
 

@@ -1,9 +1,9 @@
 <template>
   <div>
     <Titles :viewport="viewport" scene="schoolTitle">
-      <h1 class="title">
+      <h2 class="title">
         Roc(<span class="params">2020, Present</span>)
-      </h1>
+      </h2>
     </Titles>
 
     <section class="scene" id="roc1">

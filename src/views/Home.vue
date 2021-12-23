@@ -6,13 +6,13 @@
     <div class="gap"></div>
     <!--Title: CurriculumVitae()-->
     <Titles :viewport="viewport" scene="curriculum">
-      <h1 class="title" v-if="viewport.is768">
+      <h2 class="title" v-if="viewport.is768">
         Curriculum<br>
         .vitae(<span class="params">'/.*$/g'</span>)
-      </h1>
-      <h1 class="title" v-else>
+      </h2>
+      <h2 class="title" v-else>
         CurriculumVitae(<span class="params">'/.*$/g'</span>)
-      </h1>
+      </h2>
       <div class="std">
         <p class="-gray">&lt;A life+work showcase&gt;</p>
       </div>
