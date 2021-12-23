@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Home from './views/Home.vue';
-import NProgress from 'nprogress';
+// import NProgress from 'nprogress';
 
 // use
 Vue.use(Router);
@@ -79,12 +79,12 @@ const router = new Router({
 });
 
 // NProgress
-NProgress.configure({
-    easing: 'ease-out',
-    speed: 500,
-    trickleSpeed: 100,
-    showSpinner: false,
-});
+// NProgress.configure({
+//     easing: 'ease-out',
+//     speed: 500,
+//     trickleSpeed: 100,
+//     showSpinner: false,
+// });
 
 // beforeEach
 router.beforeEach((to, from, next) => {
@@ -92,7 +92,7 @@ router.beforeEach((to, from, next) => {
     // 01. lock scroll
     document.body.classList.add('locked');
     // 02. start loader
-    NProgress.start();
+    // NProgress.start();
 
     // 04. Update meta tags
     const nearestWithTitle = to.matched.slice().reverse().find(r => r.meta && r.meta.title);

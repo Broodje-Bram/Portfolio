@@ -9,7 +9,6 @@
                 @enter="enter">
 
       <router-view :viewport="viewport" />
-<!--      <Home/>-->
 
     </transition>
 
@@ -29,7 +28,6 @@ ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
 import Header from '@/components/Header.vue';
 import Spine from '@/components/Spine.vue';
 import BgBody from '@/components/BgBody.vue';
-// import Home from "@/views/Home";
 
 export default {
   name: 'App',
