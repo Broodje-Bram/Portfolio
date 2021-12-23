@@ -46,6 +46,7 @@
               <a
                   href="/Bram-Goudsmid-Resume.pdf"
                   target="_blank"
+                  rel="noopener"
                   title="Download Resume"
                   class="bt"
               >
