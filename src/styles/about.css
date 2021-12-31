@@ -21,7 +21,7 @@
     left:0;
     width:40%;
     height:100%;
-    background-image:linear-gradient(270deg,var(--bg),rgba(var(--bg-rgb),0) 90%),linear-gradient(180deg,var(--bg),rgba(var(--bg-rgb),0) 60%),url(../img/BramgoudsmidFoto.png);
+    /*background-image:linear-gradient(270deg,var(--bg),rgba(var(--bg-rgb),0) 90%),linear-gradient(180deg,var(--bg),rgba(var(--bg-rgb),0) 60%),url(../img/BramgoudsmidFoto.png);*/
     background-repeat:no-repeat;
     background-position:50%;
     background-size:cover
