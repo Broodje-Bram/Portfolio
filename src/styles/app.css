@@ -298,4 +298,26 @@ section {
     body.-open-nav .header-nav {
         transform:translateZ(0)
     }
+    .gap {
+        height: 12.5vh;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    .std p {
+        font-size: 15px;
+    }
+
+    #curriculum .title-container .title {
+        font-size: 2rem;
+    }
+    #schoolTitle .title-container .title {
+        font-size: 28px;
+    }
+    #home .std .-big {
+        font-size: 25px;
+    }
+    #work .static-container .title {
+        font-size: 2rem;
+    }
 }
