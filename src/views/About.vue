@@ -72,7 +72,7 @@
 
         <div class="about-grid">
           <h2>Main skills</h2>
-          <div class="columns fluent">
+          <div class="columns fluent" >
             <ul>
               <li>
                 Frontend development,
@@ -80,7 +80,8 @@
                 <br >UX/UI design
               </li>
               <li>
-                Java, JavaScript, CSS, HTML, PHP, MySQL
+                Java, JavaScript, CSS,
+                <br> HTML, PHP, MySQL
                 <br>Vue, GSAP, React
               </li>
               <li>
