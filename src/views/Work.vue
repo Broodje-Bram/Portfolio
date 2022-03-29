@@ -11,6 +11,15 @@
 
         <ul class="work-list">
           <li>
+            <router-link to="https://gardenambiance.nl/" title="Garden Ambiance">
+              <img src="../img/Garden.png" alt="">
+              <div class="details">
+                <strong>Garden Ambiance</strong><br>
+                <span class="-comment">// 2021 - Present </span><br>
+              </div>
+            </router-link>
+          </li>
+          <li>
             <router-link to="/work/casino" title="Online Casino Informatie">
               <img src="../img/OnlineCasino.png" alt="">
               <div class="details">
