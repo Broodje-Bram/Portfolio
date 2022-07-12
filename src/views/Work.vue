@@ -49,6 +49,16 @@
               </div>
             </router-link>
           </li>
+          <li>
+            <a href="https://www.vanliercatering.nl/" title="VanlierCatering">
+              <img src="../img/vanlier.jpg" alt="">
+              <div class="details">
+                <strong>van lier catering</strong><br>
+                <span class="-comment">// 2021 - Present </span><br>
+                A catering website
+              </div>
+            </a>
+          </li>
         </ul>
       </div>
     </div>

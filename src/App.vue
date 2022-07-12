@@ -1,6 +1,6 @@
 <template>
   <div id="app" :class="this.$route.meta.bodyClass">
-    <BgBody />
+    <BgBody/>
     <Header :route-name="this.$route.name" :viewport="viewport"/>
     <transition appear
                 mode="out-in"
