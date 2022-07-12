@@ -51,7 +51,7 @@
           </li>
           <li>
             <a href="https://www.vanliercatering.nl/" title="VanlierCatering">
-              <img src="../img/vanlier.jpg" alt="">
+              <img src="../img/vanliercatering.jpg" alt="">
               <div class="details">
                 <strong>van lier catering</strong><br>
                 <span class="-comment">// 2021 - Present </span><br>
