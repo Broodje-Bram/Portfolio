@@ -30,14 +30,14 @@
             </router-link>
           </li>
           <li>
-            <router-link to="/work/memorygame" title="Memory Game">
-              <img src="../img/Memorygame.png" alt="">
+            <a href="https://www.internetinbeeld.nl/" title="internetinbeeld">
+              <img src="../img/internetinbeeld.png" alt="">
               <div class="details">
-                <strong>Memory Game</strong><br>
-                <span class="-comment">// 2020 - Present</span><br>
-                A Memory game
+                <strong>Internet in beeld</strong><br>
+                <span class="-comment">// 2020 - Present </span><br>
+                Internetmarketing bedrijf
               </div>
-            </router-link>
+            </a>
           </li>
           <li>
             <router-link to="/work/spoedteststraat" title="SpoedtestStraat">
