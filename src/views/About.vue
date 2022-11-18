@@ -115,7 +115,7 @@
             </ul>
             <ul>
               <li>WordPress/+2</li>
-              <li>Strategic Thinking</li>
+              <li>Strategic Thinking/+∞</li>
             </ul>
           </div>
 
@@ -125,7 +125,7 @@
               <li>
                 <b class="-pink">Intern</b>
                 <br /><a href="https://www.raion-design.com/" class="-gray">@Raion Design</a>
-                <br />2021 - now
+                <br />2021 - 2022
               </li>
             </ul>
           </div>

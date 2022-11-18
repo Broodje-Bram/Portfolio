@@ -2,7 +2,7 @@
   <div>
     <Titles :viewport="viewport" scene="schoolTitle">
       <h2 class="title">
-        Roc(<span class="params">2020, Present</span>)
+        Roc(<span class="params">2020, 2022</span>)
       </h2>
     </Titles>
 
@@ -10,10 +10,10 @@
       <div class="static-container">
         <div class="std">
           <p class="-big">
-            For the past 2 years, I was <b class="-pink">a student at Roc Flevoland</b> @ <a href="https://www.rocvanflevoland.nl/" target="_blank" rel="noopener" title="Visit Roc's website" class="-pink">Roc</a>.
+            For 2 years, I were <b class="-pink">a student at Roc Flevoland</b> @ <a href="https://www.rocvanflevoland.nl/" target="_blank" rel="noopener" title="Visit Roc's website" class="-pink">Roc</a>.
           </p>
           <p>
-           A School that makes use of your Talent.
+           "A School that makes use of your Talent."
           </p>
         </div>
       </div>
