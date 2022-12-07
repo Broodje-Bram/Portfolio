@@ -21,6 +21,7 @@ body {
 }
 
 :root {
+    --white: #fff;
     --pink: #c32865;
     --bg:#0e1212;
     --bg-rgb:14,18,18;
@@ -34,6 +35,10 @@ body {
 
 .bram {
     color: #c32865;
+}
+
+.-white {
+    color: var(--white);
 }
 
 .-pink {

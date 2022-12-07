@@ -21,6 +21,14 @@
     <!--School-->
     <school :viewport="viewport" />
 
+    <Titles :viewport="viewport" scene="hobbys">
+      <h2 class="title">
+        <p class="-pink">${<span class="-white">Coding</span>}</p>
+        <p class="-pink">${<span class="-white">Fitness</span>}</p>
+        <p class="-pink">${<span class="-white">Learning</span>}</p>
+      </h2>
+    </Titles>
+
     <div class="gap"></div>
     <!--Ending-->
     <ending />
@@ -34,6 +42,7 @@ import * as ScrollMagic from "scrollmagic";
 import { TweenMax, TimelineMax, Power3, TweenLite, Power0 } from "gsap";
 import { ScrollMagicPluginGsap } from "scrollmagic-plugin-gsap";
 ScrollMagicPluginGsap(ScrollMagic, TweenMax, TimelineMax);
+
 // Components
 import Intro from '@/components/home/intro';
 import Titles from "@/components/home/Titles";
@@ -71,8 +80,11 @@ export default {
     this.setupScenes();
     // 03. setup CurriculumVitae
     this.sceneCurriculumVitae();
-    // School(2020,Present)
+    // School(2022,Present)
     this.sceneSchoolTitle();
+    // Hobby's
+    this.sceneHobbys();
+
   }, beforeDestroy() {
     // Kill time line
     this.timeLines.map(tl => tl.kill());
@@ -167,11 +179,40 @@ export default {
             transformOrigin: '50% 50% -100px',
             ease: Power3.easeOut,
           }, 'start')
-          .to('#schoolTitle .title', 6, {
+          .from('#schoolTitle .std', 6, {
+            yPercent: 50,
+            autoAlpha: 0,
+            rotationX: -90,
+            transformOrigin: '50% 50% -100px',
+            ease: Power3.easeOut,
+          }, 'start')
+          .to('#schoolTitle .title, #schoolTitle .std', 6, {
             autoAlpha: 0,
             yPercent: -100,
           })
           .staggerFrom('#smart, #open', 6, {
+            autoAlpha: 0,
+            scale: 0,
+            ease: Power3.easeOut,
+          }, .2, 'start+=2')
+    },
+    sceneHobbys(){
+      // Hobbys()
+      this.timeLines[4]
+          .set('#hobbys .title-container', {autoAlpha: 1}) // show animations
+          .addLabel('start', 0)
+          .from('#hobbys .title', 8, {
+            yPercent: -50,
+            autoAlpha: 0,
+            rotationX: 90,
+            transformOrigin: '50% 50% -100px',
+            ease: Power3.easeOut,
+          }, 'start')
+          .to('#hobbys .title, #hobbys .std', 8, {
+            autoAlpha: 0,
+            yPercent: -100
+          })
+          .staggerFrom('#smart, #open', 8, {
             autoAlpha: 0,
             scale: 0,
             ease: Power3.easeOut,
