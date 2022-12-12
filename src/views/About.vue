@@ -80,7 +80,7 @@
                 <br >UX/UI design
               </li>
               <li>
-                Java, JavaScript, CSS,
+                JavaScript, CSS,
                 <br> HTML, PHP, MySQL
                 <br>Vue, GSAP, React
               </li>
@@ -101,7 +101,6 @@
               <li>CSS/+4</li>
               <li>HTML/+4</li>
               <li>PHP/+2</li>
-              <li>Java/+2</li>
               <li>GSAP/+1</li>
             </ul>
             <ul>
