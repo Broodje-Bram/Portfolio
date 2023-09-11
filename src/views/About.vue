@@ -127,6 +127,13 @@
                 <br />2021 - 2022
               </li>
             </ul>
+            <ul>
+              <li>
+                <b class="-pink">Developer</b>
+                <br /><a href="https://www.allianz-partners.com" class="-gray">@Allianz Partners</a>
+                <br />2023 - Present
+              </li>
+            </ul>
           </div>
 
           <h2>Languages</h2>
