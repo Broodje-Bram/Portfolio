@@ -126,8 +126,7 @@
                 <br /><a href="https://www.raion-design.com/" class="-gray">@Raion Design</a>
                 <br />2021 - 2022
               </li>
-            </ul>
-            <ul>
+
               <li>
                 <b class="-pink">Developer</b>
                 <br /><a href="https://www.allianz-partners.com" class="-gray">@Allianz Partners</a>
